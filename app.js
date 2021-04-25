@@ -3,6 +3,8 @@ import mongoose from 'mongoose';
 
 import { studentRouter } from './routes/studentRouter.js';
 
+//teste git
+
 try {
   await mongoose.connect(
     'mongodb+srv://admin:admin@cluster0.ttpny.mongodb.net/grades?retryWrites=true&w=majority',
