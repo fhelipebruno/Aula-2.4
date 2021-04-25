@@ -3,6 +3,12 @@ import mongoose from 'mongoose';
 
 import { studentRouter } from './routes/studentRouter.js';
 
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+console.log(process.env.USERDB);
+
 //teste git
 
 try {
