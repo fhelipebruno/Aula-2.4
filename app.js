@@ -28,4 +28,6 @@ const app = express();
 app.use(express.json());
 app.use(studentRouter);
 
-app.listen(3000, () => console.log('API Started New'));
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => console.log('API Started New'));
